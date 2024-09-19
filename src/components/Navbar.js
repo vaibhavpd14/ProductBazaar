@@ -1,12 +1,12 @@
 import React from "react";
 
-export default function Navbar() {
+export default function Navbar({title}) {
   return (
     
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container-fluid">
           <a className="navbar-brand" href="/">
-            Mycart
+            Mycart - {title}
           </a>
           <button
             className="navbar-toggler"
